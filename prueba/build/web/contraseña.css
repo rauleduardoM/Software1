@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/10/2019, 04:20:22 PM
+    Author     : Clase
+*/
+body{
+    background: url(cuarto.jpg) no-repeat center center fixed ;
+    background-size:cover;
+}
+.main-section{
+    margin:0 auto;
+    margin-top:35%;
+    padding: 0;
+}
+.modal-content{
+    background-color: #3B4652;
+    padding:  20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.user-img img{
+    width: 150px;
+    height: 100px;
+    box-shadow: 0px 0px 3px #808080;
+}
+
+
+/*label*/
+.form-group input{
+    height: 43px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+/*imagen de label */
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+
+
+.form-group#correo-group::before{
+    content: "\f0e0";
+}
+
+button{
+    width: 100%;
+    margin: 6px 0 30px;
+    font-family:Verdana;
+
+}
+
+/*link*/
+.forgot{
+    padding: 15px 0;
+}
+.forgot p{
+    color: white;
+    font-family: 'Comic Sans MS';
+}
+
+.titulo{
+    font-family:Georgia;
+    color: white;
+    padding: 20px 0;
+}
+
+
+
+
